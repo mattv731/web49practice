@@ -1,3 +1,5 @@
+// injects the config vars inside the .env
+require('dotenv').config()
 
 const express = require('express')
 const app = express()
